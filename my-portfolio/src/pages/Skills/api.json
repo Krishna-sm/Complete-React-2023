@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"Frontend",
+        "technologies":[
+            "REACT",
+            "VUE",
+            "Angular"
+        ]
+    },
+    {
+        "id":2,
+        "title":"Backend",
+        "technologies":[
+            "NODEJS",
+            "DJANGO",
+            "Go"
+        ]
+    }
+]

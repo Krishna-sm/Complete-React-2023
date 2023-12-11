@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+#navbar{
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 5px -12px rgba(0,0,0,0.75);
+
+    nav{
+            display: flex;
+            // width: 100%;
+            align-items: center;
+            
+            justify-content: space-between;
+
+            >a{
+                font-family: 'Reem Kufi', sans-serif;
+                font-size: 30px;
+                 text-decoration: none;
+                 color: black;
+            }
+
+
+            >ul{
+                display: flex;
+                gap: 20px;
+                >li{
+                    list-style: none;
+                    >a{
+                        text-decoration: none;
+                        color: black;
+
+                        &:hover{
+                            color: rgb(54, 54, 54);
+                        }
+
+                    }
+                    
+                }
+            }
+
+        }
+
+}

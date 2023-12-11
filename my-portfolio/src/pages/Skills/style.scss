@@ -1,0 +1,29 @@
+#skills{
+    min-height: 82vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    >.accordion{
+            // background-color: rebeccapurple;
+            box-shadow: 10px 10px 5px -10px rgba(0,0,0,1.75);
+            padding: 20px;
+        width: 50%;
+        margin-top: 20px;
+        >div {
+            >label{
+                color: black;
+                font-size: 20px;
+            }
+            >.accordion__content{
+
+                padding: 10px 30px;
+            }
+        }
+
+        // margin: auto;
+    }
+}

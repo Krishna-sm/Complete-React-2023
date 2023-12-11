@@ -1,0 +1,55 @@
+#contact{
+    min-height: 82vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >form{
+        width: 70%;
+        margin: auto;
+        // background-color: rebeccapurple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    >.mb-3{
+     
+        width: 80%;
+        margin: auto;
+        >label{
+            font-size: 18px;
+        }
+        >input{
+            width: 100%;
+            padding: 8px 16px;
+            outline: none;
+            // border: 2px solid black;
+            // border-radius: 2%;
+        }
+        >p{
+            color: red;
+            font-size: small;
+        }
+        >textarea{
+            width: 100%;
+            padding: 8px 16px;
+            outline: none;
+            // border: 2px solid black;
+            // border-radius: 2%;
+        }
+
+        >button{
+            padding: 10px 30px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            border-radius: 5%;
+            cursor: pointer;
+        }
+    }
+    }
+
+}

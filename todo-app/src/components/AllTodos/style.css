@@ -1,0 +1,28 @@
+#AllTodos{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#AllTodos button{
+    padding: 10px 22px;
+    border: none;
+    outline: none;
+    background-color: #0051ff;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#AllTodos .button2{
+    padding: 10px 22px;
+    border: none;
+    outline: none;
+    background-color: #9d00ff;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}

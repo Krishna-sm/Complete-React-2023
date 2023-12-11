@@ -1,0 +1,22 @@
+### react ###
+.DS_*
+.firebase
+.firebase
+*.log
+logs
+.env
+*.env.dev
+
+node_modules
+node_modules/
+node_modules/*
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
